@@ -4,15 +4,53 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This page contains the unofficial webpage for Intel Corporation's Grenoble Graphics Research team.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<h3>Team</h3>
+{% assign members = site.data.members%}
+<div style="display:flex; width:100%; flex-wrap:wrap">
+{% for people in members %}
+<div style="display:flex; width:45%; max-width: 45%; margin:1% 1% 1% 1%; border: 1px solid black; padding:1%; border-radius: 5px; background-color: rgb(240,240,240); box-shadow: 0 3px 8px 0 rgba(0,0,0,0.03);">
+    <div class="people-picture" style="margin-right:2%">
+        {% if people.photo %}
+        <img width="92px" height="92px" style="max-width:none; width:90px; height:90px; overflow: hidden; border: solid 1px black;" src="{{ people.photo | prepend: site.baseurl }}" />
+        {% else %}
+        <img width="92px" height="92px" style="max-width:none; width:90px; height:90px; overflow: hidden;" src="{{ site.baseurl }}/images/people/default.svg" />
+        {% endif %}
+    </div>
+    <div style="display:flex; flex-direction:column; justify-content:space-between;" class="people-infos">
+        <div>
+            <div>
+                <span style="font-weight: 600;">
+                {{ people.name }}
+                </span><br />
+                <span>
+                {{ people.title }}
+                </span>
+                {% if people.email %}
+                {% endif %}
+            </div>
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+            {% if people.topics %}
+            <div style="font-style: italic;">
+                <span>{{ people.topics }}</span>
+            </div>
+            {% endif %}
+        </div>
 
-
-[jekyll-organization]: https://github.com/jekyll
+        <br />
+        <div>
+            {% if people.url %}
+            <a class="member_website" href="{{ people.url }}">&nbsp;website</a>
+            {% endif %}
+            {% if people.email and people.url %}
+            &nbsp;-&nbsp;
+            {% endif %}
+            {% if people.email %}
+            <a class="member_email" href="mailto:{{ people.email }}">&nbsp;email </a>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>

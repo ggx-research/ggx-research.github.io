@@ -1,0 +1,48 @@
+# Current members
+- name: Eric Heitz
+  title: Research Scientist
+  url: https://eheitzresearch.wordpress.com/
+  photo: /images/people/eric_heitz.jpg
+  email: "eric.heitz@intel.com"
+  affiliation: "Intel Corporation"
+
+- name: Jonathan Dupuy
+  title: Research Scientist
+  photo: /images/people/jonathan_dupuy.jpg
+  url: http://onrendering.com/
+  email: "jonathan.dupuy@intel.com"
+  affiliation: "Intel Corporation"
+
+- name: Laurent Belcour
+  title: Research Scientist
+  url: https://belcour.github.io/blog/
+  photo: /images/people/laurent_belcour.jpg
+  email: "laurent.belcour@intel.com"
+  affiliation: "Intel Corporation"
+
+- name: Thomas Deliot
+  title: Software Research Engineer
+  url: "http://thomasdeliot.wixsite.com/blog"
+  photo: /images/people/thomas_deliot.jpg
+  email: "thomas.deliot@intel.com"
+  affiliation: "Intel Corporation"
+  
+- name: Thomas Chambon
+  title: Software Research Engineer
+  url: "https://www.linkedin.com/in/thomas-chambon-0a648664/"
+  photo: /images/people/thomas_chambon.jpg
+  email: "thomas.chambon@intel.com"
+  affiliation: "Intel Corporation"
+  
+- name: Alban Fichet
+  title: Software Research Engineer
+  photo: /images/people/alban_fichet.jpg
+  url: "https://afichet.github.io/"
+  email: "alban.fichet@intel.com"
+  affiliation: "Intel Corporation"
+
+- name: Anis Benyoub
+  title: Software Research Engineer
+  url: ""
+  email: "anis.benyoub@intel.com"
+  affiliation: "Intel Corporation"

@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div style="width:100%; height:100%; background-color: black; display:flex; align-items:center; justify-content: right;">
+    <nav class="site-nav">
+      {% assign sorted_by_title = site.pages | sort: 'order' %}
+
+      <div class="trigger" style="margin-right:25px;">
+        {% for my_page in sorted_by_title %}
+
+          {% if my_page.title != page.title %}
+            {% assign style = "font-family: Roboto, sans-serif; font-weight: 600; color:gray;" %}
+          {% else %}
+            {% assign style = "font-family: Roboto, sans-serif; font-weight: 300; color:white;" %}
+          {% endif %}
+
+          {% if my_page.title %}
+          <a class="page-link" style="{{ style }}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>         
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+</div>
+</header>
