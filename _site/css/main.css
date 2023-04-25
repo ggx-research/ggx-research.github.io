@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-@font-face { font-family: 'Font Awesome Local'; font-style: normal; font-weight: 400; font-display: swap; src: url("/fonts/fa-solid-900.woff2") format("woff2"); }
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
@@ -122,27 +122,27 @@ a.publication-material { color: black; text-decoration: none; }
 
 a.publication-material:hover { color: gray; text-decoration: none; }
 
-a.outside_url:after { font-family: 'Font Awesome Local'; content: "\f14d"; font-size: 59%; line-height: 0; position: relative; vertical-align: baseline; top: -0.63em; }
+a.outside_url:after { font-family: "Font Awesome 6 Free"; content: "\f14d"; font-size: 59%; line-height: 0; position: relative; vertical-align: baseline; top: -0.63em; }
 
-a.publication-material:before { font-family: 'Font Awesome Local'; /* content: "\f08e"; */ /* font-size: 59%; */ line-height: 0; position: relative; vertical-align: baseline; padding-right: 0.1em; /* top: -0.63em; */ }
+a.publication-material:before { font-family: "Font Awesome 6 Free"; content: "\f08e"; /* font-size: 59%; */ line-height: 0; position: relative; vertical-align: baseline; padding-right: 0.1em; /* top: -0.63em; */ }
 
-a.url:before { content: "\f0c3"; }
+a.url:before { font-family: "Font Awesome 6 Free"; content: "\f14d"; font-size: 80%; padding-right: 0.2em; }
 
-a.video:before { content: "\f1c8"; }
+a.video:before { font-family: "Font Awesome 6 Free"; content: "\f1c8"; padding-right: 0.2em; }
 
-a.code:before { content: "\f1c9"; }
+a.code:before { font-family: "Font Awesome 6 Free"; content: "\f1c9"; padding-right: 0.2em; }
 
-a.slides:before { content: "\f26c"; /*    content: "\f1c4";*/ }
+a.slides:before { font-family: "Font Awesome 6 Free"; content: "\f1c4"; padding-right: 0.2em; }
 
-a.document:before { content: "\f1c1"; }
+a.document:before { font-family: "Font Awesome 6 Free"; content: "\f1c1"; padding-right: 0.2em; }
 
 a.member_website { color: black; text-decoration: none; }
 
-a.member_website:before { font-family: 'Font Awesome Local'; content: "\f5fc"; line-height: 0; }
+a.member_website:before { font-family: "Font Awesome 6 Free"; font-weight: 400; content: '\f2bb'; }
 
 a.member_email { color: black; text-decoration: none; }
 
-a.member_email:before { font-family: 'Font Awesome Local'; content: "\f658"; line-height: 0; }
+a.member_email:before { font-family: "Font Awesome 6 Free"; font-weight: 400; content: '\f0e0'; }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }

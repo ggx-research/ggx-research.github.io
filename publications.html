@@ -19,7 +19,7 @@ order: 2
         {% assign url_type = "outside_url" %}
     {% endif %}
 
-    {% if post.categories contains "publication" and post.publish %}
+    {% if post.categories contains "publication" and post.tags contains "published" %}
       <div style="position:relative; display:flex; margin-bottom:20px; border: 1px solid #AAA; padding: 10px; border-radius: 5px; background-color: #EEE;
       box-shadow: 0 3px 8px 0 rgba(0,0,0,0.03); overflow: hidden;">
 

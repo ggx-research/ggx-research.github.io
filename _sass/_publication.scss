@@ -59,7 +59,7 @@ a.publication-material:hover
 
 a.outside_url:after 
 {
-    font-family: 'Font Awesome Local';
+	font-family: "Font Awesome 6 Free";
     content: "\f14d";
     font-size: 59%;
     line-height: 0;
@@ -70,8 +70,8 @@ a.outside_url:after
 
 a.publication-material:before
 {
-    font-family: 'Font Awesome Local';
-    /* content: "\f08e"; */
+	font-family: "Font Awesome 6 Free"; 
+    content: "\f08e";
     /* font-size: 59%; */
     line-height: 0;
     position: relative;
@@ -82,22 +82,32 @@ a.publication-material:before
 }
 
 a.url:before {
-    content: "\f0c3";
+	font-family: "Font Awesome 6 Free";
+    content: "\f14d";
+    font-size: 80%;
+    padding-right: 0.2em;
 }
 
 a.video:before {
+	font-family: "Font Awesome 6 Free";
     content: "\f1c8";
+    padding-right: 0.2em;
 }
 
 a.code:before {
+	font-family: "Font Awesome 6 Free";
     content: "\f1c9";
+    padding-right: 0.2em;
 }
 
 a.slides:before {
-    content: "\f26c";
-/*    content: "\f1c4";*/
+	font-family: "Font Awesome 6 Free";
+    content: "\f1c4";
+    padding-right: 0.2em;
 }
 
 a.document:before {
+	font-family: "Font Awesome 6 Free";
     content: "\f1c1";
+    padding-right: 0.2em;
 }

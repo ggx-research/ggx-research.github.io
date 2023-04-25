@@ -6,13 +6,9 @@ a.member_website
 
 a.member_website:before 
 {
-    font-family: 'Font Awesome Local';
-    content: "\f5fc";
-    // font-size: 59%;
-    line-height: 0;
-    // position: relative;
-    // vertical-align: baseline;
-    // top: -0.63em;
+	font-family: "Font Awesome 6 Free"; 
+	font-weight: 400;
+    content: '\f2bb';
 }
 
 a.member_email
@@ -23,11 +19,7 @@ a.member_email
 
 a.member_email:before 
 {
-    font-family: 'Font Awesome Local';
-    content: "\f658";
-    // font-size: 59%;
-    line-height: 0;
-    // position: relative;
-    // vertical-align: baseline;
-    // top: -0.63em;
+	font-family: "Font Awesome 6 Free"; 
+	font-weight: 400;
+    content: '\f0e0';
 }
