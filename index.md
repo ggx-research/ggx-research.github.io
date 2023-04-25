@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-This page contains the unofficial webpage for Intel Corporation's Grenoble Graphics Research team.
+This page contains the unofficial webpage for our Grenoble GraphiX (GGX) Research team. Now at Intel, previously at Unity.
 
 <h3>Team</h3>
 {% assign members = site.data.members%}
