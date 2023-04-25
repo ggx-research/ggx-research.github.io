@@ -4,6 +4,7 @@
   url: https://eheitzresearch.wordpress.com/
   photo: /images/people/eric_heitz.jpg
   email: "eric.heitz@intel.com"
+  center: ggx
   affiliation: "Intel Corporation"
 
 - name: Jonathan Dupuy
@@ -11,6 +12,7 @@
   photo: /images/people/jonathan_dupuy.jpg
   url: http://onrendering.com/
   email: "jonathan.dupuy@intel.com"
+  center: ggx
   affiliation: "Intel Corporation"
 
 - name: Laurent Belcour
@@ -18,6 +20,7 @@
   url: https://belcour.github.io/blog/
   photo: /images/people/laurent_belcour.jpg
   email: "laurent.belcour@intel.com"
+  center: ggx
   affiliation: "Intel Corporation"
 
 - name: Thomas Deliot
@@ -25,6 +28,7 @@
   url: "http://thomasdeliot.wixsite.com/blog"
   photo: /images/people/thomas_deliot.jpg
   email: "thomas.deliot@intel.com"
+  center: ggx
   affiliation: "Intel Corporation"
   
 - name: Thomas Chambon
@@ -32,6 +36,7 @@
   url: "https://www.linkedin.com/in/thomas-chambon-0a648664/"
   photo: /images/people/thomas_chambon.jpg
   email: "thomas.chambon@intel.com"
+  center: ggx
   affiliation: "Intel Corporation"
   
 - name: Alban Fichet
@@ -39,6 +44,7 @@
   photo: /images/people/alban_fichet.jpg
   url: "https://afichet.github.io/"
   email: "alban.fichet@intel.com"
+  center: ggx
   affiliation: "Intel Corporation"
 
 - name: Anis Benyoub
@@ -46,4 +52,101 @@
   photo: /images/people/anis_benyoub.jpg
   url: "https://auzaiffe.wordpress.com/blog/"
   email: "anis.benyoub@intel.com"
+  center: ggx
   affiliation: "Intel Corporation"
+  
+  
+# Former members
+
+- name: Kenneth Vanhoey
+  title: Senior Research Scientist
+  url: "http://www.kvanhoey.eu/"
+  topics: "Machine Learning for CGI and Content Creation"
+  photo: /images/people/kenneth_vanhoey.jpg
+  center: alumni
+  topics: "Machine Learning"
+  email: "kennethv@unity3d.com"
+
+- name: Frédéric Larue
+  title: Senior Research Engineer
+  center: alumni
+  topics: "Photogrametry"
+  url: "https://sites.google.com/view/frederic-larue/home"
+  photo: /images/people/frederic_larue.jpg
+  
+- name: Arthur Dufay
+  title: "Senior Research Engineer"
+  center: alumni
+  photo: /images/people/arthur_dufay.jpg
+  topics: "Photogrametry"
+  url: "http://www.linkedin.com/in/arthur-dufay-a9689388/"
+  
+- name: Wilhem Barbier
+  title: Research Intern
+  url: "https://wbrbr.org/"
+  center: alumni
+  topics: "Texture Parameterization"
+  photo: /images/people/wilhem_barbier.jpg
+
+- name: Heloise de Dinechin
+  title: Research Intern
+  url: https://heloisededinechin.github.io/
+  center: alumni
+  topics: "Layered Material Modelling"
+  photo: /images/people/heloise_dinechin.jpg
+
+- name: Ulysse Rigaut
+  title: Research Intern
+  url: "https://ulysserigaut.com/"
+  center: alumni
+  topics: "Real-time Area Lighting"
+  photo: /images/people/ulysse_rigaut.jpg
+
+- name: Sylvain Durand
+  title: "Research Intern"
+  center: alumni
+  topics: "Blue-Noise Sampling"
+  url: "https://sdurand7.github.io/"
+  photo: /images/people/sylvain_durand.jpg
+
+- name: Corentin Salaun
+  title: "Research Intern"
+  center: alumni
+  topics: "Blue-Noise Sampling"
+  url: "https://iribis.github.io/"
+  photo: /images/people/corentin_salaun.jpg
+  
+- name: Philippe Weier
+  title: "Research Intern"
+  center: alumni
+  topics: "Appearance Modeling"
+  url: "https://weiphil.github.io/portfolio/"
+  photo: /images/people/philippe_weier.jpg
+
+- name: Adele Saint-Denis
+  title: "Research Intern"
+  topics: "Real-Time Style Transfer"
+  center: alumni
+  photo: /images/people/adele_saintdenis.jpg
+
+- name: Jad Khouri
+  title: "Research Intern"
+  center: alumni
+  topics: "GPU Tessellation"
+  url: "https://jadkhoury.github.io/"
+  photo: /images/people/jad_khoury.jpg
+
+- name: Pierre Moreau
+  title: "Research Intern"
+  center: alumni
+  topics: "Control Variates"
+  url: "https://pmoreau.org/"
+  photo: /images/people/pierre_moreau.jpg
+ 
+- name: Christophe Riccio
+  title: "R&amp;D Engineer"
+  center: alumni
+  photo: /images/people/christophe_riccio.jpg
+  url: "http://github.com/g-truc"
+
+  
