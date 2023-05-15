@@ -6,44 +6,51 @@
   <body>
 
     {% include header.html %}
+    {% capture year %}{{page.date | date: "%Y"}}{% endcapture %}
+    {% assign year = year | plus: 0 %}
 
     <div class="page-content">
       <div class="wrapper">
+        <div class="publication-content">
         <br />
 
         <div class="publication-title" style="font-size:1.4em;">
             {{ page.title }}
-        </div>
+        </div><br />
         <div class="publication-authors">
             {% assign authors_size = page.authors.size | minus: 1 %}
             {% for index in (0..authors_size) %}
 
                 {% assign author = page.authors[index] %}
-
                 {% assign author_infos = site.data.members | where: "name", author.name %}
-                {% if author_infos.size > 0 %}
-                    {% assign author_affiliation = author_infos[0].affiliation %}
-                    {% assign author_url = author_infos[0].url %}
-                {% else %}
+
+                {% if author.affiliation %}
                     {% assign author_affiliation = author.affiliation %}
                     {% assign author_url = author.url %}
+                {% else %}
+                    {% assign author_affiliation = author_infos[0].affiliation %}
+		    {% if year < 2023 %}
+                    	{% assign author_affiliation = "Unity Technologies" %}
+	     	    {% endif %}
+                    {% assign author_url = author_infos[0].url %}
                 {% endif %}
-                <span class="publication-author">
+
+                <div class="publication-author">
                 <span class="publication-author-name">
                     {% if author_url != nil %}
                         <a href="{{ author_url }}">{{ author.name }}</a>
                     {% else %}
                         {{ author.name }}
                     {% endif %}
-                    {% if index != authors_size %},{% endif %}
-                </span>
+                    <!-- {% if index != authors_size %},{% endif %} -->
+                </span><br />
                 <span class="publication-author-affiliation">
                     {{ author_affiliation }}
                 </span>
-                </span>
+                </div>
 
             {% endfor %}
-        </div>
+        </div><br />
         <div class="publication-journal">
             {% if page.tags contains 'published' %}
                 Published in
@@ -78,9 +85,21 @@
 
       </div>
     </div>
+    </div>
 
     {% include footer.html %}
 
-  </body>
 
+    <script defer>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+    <script type="text/javascript" id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    </body>  
 </html>

@@ -47,7 +47,7 @@ order: 2
             </div>
 
             <!-- Generate author list -->
-            <div class="publication-authors">
+            <div class="publications-authors">
                 {% assign authors_size = post.authors.size | minus: 1 %}
                 {% for index in (0..authors_size) %}
 
@@ -61,7 +61,7 @@ order: 2
                     {% assign author_affiliation = author.affiliation %}
                     {% assign author_url = author.url %}
                 {% endif %}
-                <span class="publication-authors-name">
+                <span class="publications-authors-name">
                     {% if author_url != nil %}<a href="{{ author_url }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% if index != authors_size %},{% endif %}
                 </span>
                 {% endfor %}

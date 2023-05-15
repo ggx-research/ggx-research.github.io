@@ -1,25 +1,50 @@
+.publications-authors
+{
+}
 
+.publications-authors-name
+{
+}
+
+
+.publication-content
+{
+    width:60%;
+    padding-left: 20%;;
+    text-align: justify;
+}
 
 .publication-title
 {
+    text-align: left;
     font-size: 1.2em;
     font-family: Roboto, sans-serif;
     font-weight: 600;
     letter-spacing: -0.05em;
 }
 
+.publication-authors
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
 .publication-author-affiliation
 {
-    display: none;
-    font-style:italic;
+    display: inline;
+    // font-style:italic;
     vertical-align: super;
     font-size: 0.7em;
 }
 
+/*
 .publication-author-name:hover + .publication-author-affiliation
 {
     display: inline;
 }
+*/
 
 .publication-journal
 {
