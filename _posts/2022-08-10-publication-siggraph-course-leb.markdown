@@ -1,7 +1,7 @@
 ---
 layout: publication
 date:   2022-08-10
-title:  "Bisection Based Triangulation of Catmull Clark Subdivision "
+title:  "Bisection Based Triangulation of Catmull Clark Subdivision"
 authors: [
             { name: "Jonathan Dupuy" },
             { name: "Thomas Deliot" }
