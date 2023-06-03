@@ -117,3 +117,17 @@ Herebelow is a pseudocode implementation of the training and sampling algorithms
 <img style="width:50%;" src="/images/posts/2023-publication-iadb/iadb_training.png">
 <img style="width:50%;" src="/images/posts/2023-publication-iadb/iadb_sampling.png">
 </div>
+
+
+## Application: Image Generation
+
+We apply our formulation to image generation of image dataset such as the CelebA dataset. Herebelow we display an uncurated grid of images outputed using the sampling algoritm above:
+<center>
+<img style="width:100%;" src="/images/posts/2023-publication-iadb/celebA.png">
+</center><br />
+
+We also show in our paper examples of conditional image generation.
+<div style="display:flex; justify-content:center">
+<img style="width:50%;" src="/images/posts/2023-publication-iadb/fig_gta.png">
+<img style="width:50%;" src="/images/posts/2023-publication-iadb/fig_sat.png">
+</div>
