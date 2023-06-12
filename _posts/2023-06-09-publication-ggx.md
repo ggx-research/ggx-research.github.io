@@ -14,6 +14,7 @@ tags: 'published'
 # Thumbnails should be 128x128 max
 thumbnail: "/images/thumbnails/publication_2023_ggx.jpg"
 materials: [
-    { type: "document", name: "paper", url: "https://arxiv.org/abs/2306.05044" }
+    { type: "document", name: "paper", url: "https://arxiv.org/abs/2306.05044" },
+    { type: "url", name: "code", url: "https://gist.github.com/jdupuy/4c6e782b62c92b9cb3d13fbb0a5bd7a0" },
 ]
 ---
