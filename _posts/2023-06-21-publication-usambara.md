@@ -19,6 +19,19 @@ materials: [
 ]
 ---
 
+<div style="display:flex; justify-content: space-evenly;">
+<div style="position:relative; width:40%;">
+    <img width="512px" style="width:100%; border:solid 1px black;" src="/images/posts/2023-publication-usambara/usambara.png">
+    <span style="width:50%; text-align:center; font-family:linux-libertine; font-weight:600; font-size:0.8em; position:absolute; top:5%; left:0%; color:#ff7f0eff;">Usambara effect</span>
+    <span style="width:50%; text-align:center; font-family:linux-libertine; font-weight:600; font-size:0.8em; position:absolute; top:5%; left:50%; color:#2ca02cff;">Saturation effect</span>
+    <img width="512px" style="width:91%; position:absolute; top:58%; left:7%;" src="/images/posts/2023-publication-usambara/spectrum.svg">
+</div>
+    <img width="512px" style="width:44%;" src="/images/posts/2023-publication-usambara/chroma.svg">
+</div>
+<div style="width:90%; padding-left:5%; padding-right:5%; font-style:italic; font-size:0.9em;">
+We introduce a method to generate many spectra with the same chromaticity under a given illuminant. We show how to apply this technique to either reproduce spectra mimicking the Usambara effect, a form of vathochromism (change of chrominance with respect to optical depth, on the left) or a simple saturating spectra (on the right).
+</div>
+<br />
 
 ## Abstract
 

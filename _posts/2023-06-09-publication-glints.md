@@ -15,7 +15,7 @@ tags: 'published'
 thumbnail: "/images/thumbnails/publication_2023_glints.jpg"
 materials: [
     { type: "document", name: "paper", url: "https://arxiv.org/abs/2306.05051" },
-    { type: "video", name: "video", url: "https://drive.google.com/file/d/1AYpfS0uRLkKe7LJL8DU_g1Yof_MLN3Hh/view" },
+    { type: "video", name: "video (yt)", url: "https://www.youtube.com/watch?v=hsBacmXO08I" },
     { type: "code",  name: "code",  url: "https://drive.google.com/file/d/1YQDxlkZFEwV6ZeaXCUYMhB4P-3ODS32e/view?usp=drive_link"},
     { type: "code",  name: "demo",  url: "https://drive.google.com/file/d/1QonFDpE8FNaX7wk_CPniq4JPR0r4syON/view?usp=drive_link"},
     { type: "code",  name: "demo (teaser)",  url: "https://drive.google.com/file/d/1lfxNI7o7mqbJLDQnc3LBVPIjnIBU92PD/view?usp=drive_link"},
@@ -29,11 +29,11 @@ In this work, we render in real-time glittery materials caused by  discrete flak
 
 <center style="width:100%;">
     <embed
-        src="https://drive.google.com/file/d/1AYpfS0uRLkKe7LJL8DU_g1Yof_MLN3Hh/preview"
+        src="https://www.youtube.com/embed/hsBacmXO08I"
         type="video/mp4"
         allow="autoplay; encrypted-media; picture-in-picture"
         allowfullscreen
-        style="width:100%; height:calc(26cqw); overflow:auto; resize:horizontal; border:solid 1px black;"
+        style="width:100%; height:calc(26cqw); overflow:auto; resize:horizontal;"
     >
 </center>
 <br />
