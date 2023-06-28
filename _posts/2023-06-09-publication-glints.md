@@ -20,6 +20,7 @@ materials: [
     { type: "code",  name: "demo",  url: "https://drive.google.com/file/d/1QonFDpE8FNaX7wk_CPniq4JPR0r4syON/view?usp=drive_link"},
     { type: "code",  name: "demo (teaser)",  url: "https://drive.google.com/file/d/1lfxNI7o7mqbJLDQnc3LBVPIjnIBU92PD/view?usp=drive_link"},
 ]
+award: "Best paper"
 ---
 
 
