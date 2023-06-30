@@ -136,8 +136,8 @@ Below are two examples of conditional models:
   <table>
     <thead>
       <tr>
-        <th>Input Image</th>
-        <th>Reference Image</th>
+        <th>Input</th>
+        <th>Reference</th>
         <th>Generation 1</th>
         <th>Generation 2</th>
       </tr>
@@ -182,8 +182,8 @@ Below are two examples of conditional models:
   <table>
     <thead>
       <tr>
-        <th>Input Image</th>
-        <th>Reference Image</th>
+        <th>Input</th>
+        <th>Reference</th>
         <th>Generation 1</th>
         <th>Generation 2</th>
       </tr>
