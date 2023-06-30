@@ -17,6 +17,7 @@ thumbnail: "/images/thumbnails/publication_2023_iadb.png"
 materials: [
     { type: "document", name: "paper", url: "https://arxiv.org/abs/2305.03486" },
     { type: "url", name: "code", url: "https://github.com/tchambon/IADB" },
+    { type: "url", name: "2D tutorial", url: "https://tchambon.github.io/posts/iadb-2D/" }
 ]
 ---
 
