@@ -107,7 +107,7 @@ Fortunately, in the infinitesimal limit, these small steps average out. As a res
 </center>
 <br />
 
-This is where the neural network comes into play. The idea is to train a neural network to deblend blended samples. They key point is that, as we have seen, for a given blended sample $x_\alpha$ there are always multiple possible outputs $(x_0, x_1)$ that could have been blended into $x_\alpha$. We does the neural network learn when one input can produce different outputs? That depends on the training loss. If we train the neural network with a $l_2$ norm, it learns the average of the multiple outputs (the tangent of the deterministic path), which is precisely what we want. 
+This is where the neural network comes into play. The idea is to train a neural network to deblend blended samples. The key point is that, as we have seen, for a given blended sample $x_\alpha$ there are always multiple possible outputs $(x_0, x_1)$ that could have been blended into $x_\alpha$. What does the neural network learn when one input can produce different outputs? That depends on the training loss. If we train the neural network with a $l_2$ norm, it learns the average of the multiple outputs (the tangent of the deterministic path), which is precisely what we want. 
 
 In summary, we train a neural network to deblend blended samples, which makes it learn the tangent of the deterministic path. Once the training is over, we generate images by starting with an $x_0$ and we follow the deterministic path iteratively by moving along the tangent predicted by the neural network. That’s it! We obtain a deterministic diffusion model that is, in essence, equivalent to the state-of-the-art deterministic diffusion models.
 
@@ -127,7 +127,100 @@ We apply our formulation to image generation of image dataset such as the CelebA
 </center><br />
 
 We also show in our paper examples of conditional image generation.
-<div style="display:flex; justify-content:center">
-<img style="width:50%;" src="/images/posts/2023-publication-iadb/fig_gta.png">
-<img style="width:50%;" src="/images/posts/2023-publication-iadb/fig_sat.png">
+
+
+<div style="display: flex; justify-content: space-around;">
+<div>
+<h3 style="text-align: center;">GTA V</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Input Image</th>
+        <th>Reference Image</th>
+        <th>Generation 1</th>
+        <th>Generation 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Add more rows as needed -->
+      <tr>
+        <td><img src="/images/posts/2023-publication-iadb/gta1_condition.png" alt="input1"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta1_reference.png" alt="reference1"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta1_gen1.png" alt="gen1-1"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta1_gen2.png" alt="gen2-1"></td>
+      </tr>
+        <tr>
+        <td><img src="/images/posts/2023-publication-iadb/gta2_condition.png" alt="input2"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta2_reference.png" alt="reference2"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta2_gen1.png" alt="gen1-2"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta2_gen2.png" alt="gen2-2"></td>
+      </tr>
+      <tr>
+        <td><img src="/images/posts/2023-publication-iadb/gta3_condition.png" alt="input3"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta3_reference.png" alt="reference3"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta3_gen1.png" alt="gen1-3"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta3_gen2.png" alt="gen2-3"></td>
+      </tr>
+      <tr>
+        <td><img src="/images/posts/2023-publication-iadb/gta4_condition.png" alt="input4"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta4_reference.png" alt="reference4"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta4_gen1.png" alt="gen1-4"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta4_gen2.png" alt="gen2-4"></td>
+      </tr>
+      <tr>
+        <td><img src="/images/posts/2023-publication-iadb/gta5_condition.png" alt="input5"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta5_reference.png" alt="reference5"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta5_gen1.png" alt="gen1-5"></td>
+        <td><img src="/images/posts/2023-publication-iadb/gta5_gen2.png" alt="gen2-5"></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div style="margin-left: 50px;">
+  <h3 style="text-align: center;">Map2Sat</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Input Image</th>
+        <th>Reference Image</th>
+        <th>Generation 1</th>
+        <th>Generation 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Add more rows as needed -->
+      <tr>
+        <td><img src="/images/posts/2023-publication-iadb/sat1_condition.png" alt="input1"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat1_reference.png" alt="reference1"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat1_gen1.png" alt="gen1-1"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat1_gen2.png" alt="gen2-1"></td>
+      </tr>
+        <tr>
+        <td><img src="/images/posts/2023-publication-iadb/sat2_condition.png" alt="input2"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat2_reference.png" alt="reference2"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat2_gen1.png" alt="gen1-2"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat2_gen2.png" alt="gen2-2"></td>
+      </tr>
+      <tr>
+        <td><img src="/images/posts/2023-publication-iadb/sat3_condition.png" alt="input3"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat3_reference.png" alt="reference3"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat3_gen1.png" alt="gen1-3"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat3_gen2.png" alt="gen2-3"></td>
+      </tr>
+      <tr>
+        <td><img src="/images/posts/2023-publication-iadb/sat4_condition.png" alt="input4"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat4_reference.png" alt="reference4"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat4_gen1.png" alt="gen1-4"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat4_gen2.png" alt="gen2-4"></td>
+      </tr>
+      <tr>
+        <td><img src="/images/posts/2023-publication-iadb/sat5_condition.png" alt="input5"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat5_reference.png" alt="reference5"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat5_gen1.png" alt="gen1-5"></td>
+        <td><img src="/images/posts/2023-publication-iadb/sat5_gen2.png" alt="gen2-5"></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
 </div>
