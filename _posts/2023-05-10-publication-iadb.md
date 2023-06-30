@@ -127,7 +127,7 @@ We apply our formulation to image generation of image dataset such as the CelebA
 </center><br />
 
 We also show in our paper examples of conditional image generation.
-
+Below are two distinct visual examples that illustrate this concept:
 
 <div style="display: flex; justify-content: space-around;">
 <div>
