@@ -8,6 +8,7 @@ authors: [
          ]
 conference: "Computer Graphics Forum (HPG 2021 top 30% proceedings)"
 categories: publication
+award: "Best paper #2"
 tags: published
 thumbnail: "/images/thumbnails/publication_catmark.png"
 url_outside: https://onrendering.com
