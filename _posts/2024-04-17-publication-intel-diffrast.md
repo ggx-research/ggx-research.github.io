@@ -16,9 +16,21 @@ tags: 'published'
 thumbnail: "/images/thumbnails/publication_2024_intel_diffrast.png"
 materials: [
     { type: "document", name: "paper", url: "https://arxiv.org/abs/2404.09758" },
+    { type: "video", name: "video (yt)", url: "https://www.youtube.com/watch?v=hoFL0QGrqDg" },
 ]
 ---
 
 ## Abstract
 
 We show how to transform a non-differentiable rasterizer into a differentiable one with minimal engineering efforts and no external dependencies (no Pytorch/Tensorflow). We rely on Stochastic Gradient Estimation, a technique that consists of rasterizing after randomly perturbing the scene’s parameters such that their gradient can be stochastically estimated and descended. This method is simple and robust but does not scale in dimensionality (number of scene parameters). Our insight is that the number of parameters contributing to a given rasterized pixel is bounded. Estimating and averaging gradients on a per-pixel basis hence bounds the dimensionality of the underlying optimization problem and makes the method scalable. Furthermore, it is simple to track per-pixel contributing parameters by rasterizing ID- and UV-buffers, which are trivial additions to a rasterization engine if not already available. With these minor modifications, we obtain an in-engine optimizer for 3D assets with millions of geometry and texture parameters.
+
+<center style="width:100%;">
+    <embed
+        src="https://www.youtube.com/embed/hoFL0QGrqDg?si=GzYuKYBLSX3-EgVY"
+        type="video/mp4"
+        allow="autoplay; encrypted-media; picture-in-picture"
+        allowfullscreen
+        style="width:100%; height:calc(26cqw); overflow:auto; resize:horizontal;"
+    >
+</center>
+<br />
