@@ -19,6 +19,10 @@ materials: [
     { type: "video", name: "video", url: "https://www.youtube.com/watch?v=hoFL0QGrqDg" },
     { type: "code", name: "code", url: "https://drive.google.com/file/d/1FUVUyctYzZVHij6f8lS7scMbQzg1CeN6/view?usp=sharing"},
 ]
+award: [
+    "Best paper #2",
+    "Best presentation"
+]
 ---
 
 

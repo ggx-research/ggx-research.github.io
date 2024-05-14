@@ -24,9 +24,11 @@ order: 2
       box-shadow: 0 3px 8px 0 rgba(0,0,0,0.03); overflow: hidden;">
 
         {% if  post.award %}
-        <center style="transform:rotate(45deg); font-family:Roboto; font-weight:600; position:absolute; top:40px; left:85%; width:200px; background-color:red; color:white; padding:5px;">
-            {{ post.award }}
-        </center>
+        {% for award in post.award %}
+            <center style="transform:translateX(-{{forloop.index0 | times: 4 }}em) rotate(45deg); font-family:Roboto; font-weight:600; position:absolute; top:2.8em; left:85%; width:200px; background-color:red; color:white; padding:5px;">
+                {{ award }}
+            </center>
+        {% endfor %}
         {% endif %}
 
         <div class="publication-image" style="margin-right:15px;">
