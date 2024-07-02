@@ -15,7 +15,8 @@ tags: 'to_appear'
 # Thumbnails should be 128x128 max
 thumbnail: "/images/thumbnails/publication_2024_fluo_rgb.png"
 materials: [
-    { type: "document", name: "paper", url: "https://arxiv.org/pdf/2406.17360" }
+    { type: "document", name: "paper", url: "https://arxiv.org/pdf/2406.17360" },
+    { type: "document", name: "supp. pdf", url: "https://arxiv.org/src/2406.17360v2/anc/supplemental.pdf" }
 ]
 ---
 
