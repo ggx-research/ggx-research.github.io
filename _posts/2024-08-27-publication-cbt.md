@@ -20,7 +20,7 @@ materials: [
 ---
 
 <div style="display:flex; justify-content: space-evenly;">
-    <div style="position:relative; width:80%;">
+    <div style="position:relative; width:100%;">
         <img style="width:100%; border:solid 1px black;" src="/images/posts/2024-publication-cbt/cbt-teaser.jpg">
     </div>
 </div>
