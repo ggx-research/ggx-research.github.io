@@ -1,6 +1,6 @@
 ---
 layout: publication
-date:   2025-08-14
+date:   2025-06-06
 title:  "A Fluorescent Material Model for Non-Spectral Editing & Rendering"
 authors: [
     {name: "Laurent Belcour"},
@@ -18,17 +18,6 @@ materials: [
     { type: "document", name: "paper", url: "https://arxiv.org/pdf/2505.19672" },
 ]
 ---
-
-<!-- <div style="display:flex; justify-content: space-evenly;">
-    <div style="position:relative; width:80%;">
-        <img style="width:100%; border:solid 1px black;" src="/images/posts/2024-publication-fluo-rgb/unity-blue.jpg">
-        <span style="width:50%; text-align:left;  font-weight:600; font-size:2em; position:absolute; top:2%; left:2%; color:#FF0000;">Fluo OFF</span>
-        <span style="width:50%; text-align:right; font-weight:600; font-size:2em; position:absolute; top:2%; right:2%; color:#00FF00;">Fluo ON</span>
-    </div>
-</div>
-<div style="width:80%; padding-left:10%; padding-right:10%; font-style:italic; font-size:0.9em;">
-We introduce a method to render fluorescent materials in a non-spectral rendererer, exhibiting typical increased luminance and hue-shifting effects when the same materials are placed under a different lighting. Our method is based on a new reduction technique that accurately matches the spectral reference, significantly improving on previous work where a naive formulation of the fluorescence reradiation matrix reduction was used.</div>
-<br /> -->
 
 ## Abstract
 
