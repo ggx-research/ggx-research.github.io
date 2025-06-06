@@ -11,7 +11,7 @@ conference: "Computer Graphics Forum"
 categories: publication
 # Add a tag to display in the website
 # Valid tags are: 'published', 'to_appear', 'techreport'
-tags: 'to_appear'
+tags: 'published'
 # Thumbnails should be 128x128 max
 thumbnail: "/images/thumbnails/publication_2024_fluo_rgb.png"
 materials: [

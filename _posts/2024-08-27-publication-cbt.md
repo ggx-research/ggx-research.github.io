@@ -10,7 +10,7 @@ conference: "HPG 2024"
 categories: publication
 # Add a tag to display in the website
 # Valid tags are: 'published', 'to_appear', 'techreport'
-tags: 'to_appear'
+tags: 'published'
 # Thumbnails should be 128x128 max
 thumbnail: "/images/thumbnails/publication_2024_cbt.jpg"
 materials: [
