@@ -15,7 +15,9 @@ tags: 'to_appear'
 # Thumbnails should be 128x128 max
 thumbnail: "/images/thumbnails/publication_2025_leb3d.png"
 materials: [
-    { type: "document", name: "paper", url: "https://arxiv.org/abs/2506.11510" }
+    { type: "document", name: "paper", url: "https://arxiv.org/abs/2506.11510" },
+    { type: "video",    name: "video", url: "https://youtu.be/fn4bfZwLusk" },
+    { type: "video",    name: "video", url: "https://youtu.be/o_96kNy_m1M" },
 ]
 ---
 
