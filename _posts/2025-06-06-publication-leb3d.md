@@ -7,7 +7,7 @@ authors: [
     {name: "Anis Benyoub"},
     {name: "Jonathan Dupuy"},
 ]
-conference: "SIGGRAPH Talks 2026"
+conference: "SIGGRAPH Talks 2025"
 categories: publication
 # Add a tag to display in the website
 # Valid tags are: 'published', 'to_appear', 'techreport'
