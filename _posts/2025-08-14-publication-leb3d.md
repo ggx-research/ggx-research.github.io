@@ -1,6 +1,6 @@
 ---
 layout: publication
-date:   2025-06-06
+date:   2025-08-14
 title:  "Adaptive Tetrahedral Grids for Volumetric Path-Tracing
 "
 authors: [
