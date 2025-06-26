@@ -16,6 +16,7 @@ thumbnail: "/images/thumbnails/publication_2025_nbfc.png"
 materials: [
     { type: "document", name: "paper", url: "https://arxiv.org/pdf/2506.06040" },
     { type: "video",    name: "video", url: "https://www.youtube.com/watch?v=8sy3QP1R-p8" },
+    { type: "code",     name: "code",  url: "https://github.com/GameTechDev/TextureSetNeuralCompressionSample"},
 ]
 ---
 
