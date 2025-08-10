@@ -18,6 +18,7 @@ materials: [
     { type: "document", name: "paper", url: "https://arxiv.org/abs/2506.11510" },
     { type: "video",    name: "video", url: "https://youtu.be/fn4bfZwLusk" },
     { type: "video",    name: "video", url: "https://youtu.be/o_96kNy_m1M" },
+    { type: "code",    name: "code", url: "https://github.com/AnisB/leb3D" }
 ]
 ---
 
