@@ -18,6 +18,9 @@ materials: [
     { type: "video",    name: "video", url: "https://www.youtube.com/watch?v=8sy3QP1R-p8" },
     { type: "code",     name: "code",  url: "https://github.com/GameTechDev/TextureSetNeuralCompressionSample"},
 ]
+award: [
+    "Best paper #3"
+]
 ---
 
 <center>

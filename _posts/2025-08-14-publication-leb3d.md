@@ -1,8 +1,7 @@
 ---
 layout: publication
 date:   2025-06-16
-title:  "Adaptive Tetrahedral Grids for Volumetric Path-Tracing
-"
+title:  "Adaptive Tetrahedral Grids for Volumetric Path-Tracing"
 authors: [
     {name: "Anis Benyoub"},
     {name: "Jonathan Dupuy"},
