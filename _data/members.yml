@@ -47,15 +47,15 @@
   center: ggx
   affiliation: "Intel Corporation"
 
+  
+  
+# Former members
 - name: Anis Benyoub
-#  title: Software Research Engineer
+  title: Software Research Engineer
   photo: /images/people/anis_benyoub.jpg
   url: "https://auzaiffe.wordpress.com/blog/"
   email: "benyoub.anis@gmail.com"
   center: alumni
-  
-  
-# Former members
 
 - name: Kenneth Vanhoey
   title: Senior Research Scientist
