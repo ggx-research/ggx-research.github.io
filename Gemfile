@@ -17,6 +17,10 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
 end
 
+# Ruby 3.4+ no longer ships `csv`/`bigdecimal` as default gems; jekyll 3.9 requires them
+gem "csv"
+gem "bigdecimal"
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
